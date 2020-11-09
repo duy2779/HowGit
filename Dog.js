@@ -5,8 +5,12 @@ function Dog(name) {
     this.stomach = [];
 }
 
-Dog.prototype.sayHi = function() {
+Dog.prototype.sayHi = function () {
     console.log('Hi, My name is ' + chalk.red(this.name));
+}
+
+Dog.prototype.eat = function (bone) {
+    this.stomach.push(bone);
 }
 
 module.exports = Dog;
