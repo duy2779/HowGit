@@ -6,4 +6,3 @@ var cat = new Cat('Tom');
 var dog = new Dog();
 var mouse = new Mouse('Jerry');
 
-mouse.sleep(cat);
