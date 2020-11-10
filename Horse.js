@@ -6,3 +6,7 @@ function Horse(name, speed) {
 Horse.prototype.jump = function () {
     console.log('This horse jumping');
 }
+
+Horse.prototype.run = function(){
+    console.log(this.name + ' running with speed ' + this.speed);
+}
