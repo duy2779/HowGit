@@ -10,3 +10,5 @@ Horse.prototype.jump = function () {
 Horse.prototype.run = function(){
     console.log(this.name + ' running with speed ' + this.speed);
 }
+
+module.exports = Horse;

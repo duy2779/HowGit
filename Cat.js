@@ -1,10 +1,9 @@
-var Mouse = require('./Mouse')
-
 function Cat() {
     this.stomach = [];
 }
 
 Cat.prototype.eat = function (animal) {
+    var Mouse = require('./Mouse')
     if (animal instanceof Mouse) {
         this.stomach.push(animal);
     } else {
